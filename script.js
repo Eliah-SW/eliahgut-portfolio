@@ -112,11 +112,3 @@ document.querySelectorAll('.hero-actions a').forEach(anchor => {
         });
     });
 });
-
-window.addEventListener('scroll', function() {
-    const heroBg = document.querySelector('.hero-bg');
-    const scrollPosition = window.scrollY;
-    
-    // Parallax-Effekt: Bewege das Bild langsamer als der Scroll
-    heroBg.style.transform = `translateY(${scrollPosition * 0.5}px)`;
-});
