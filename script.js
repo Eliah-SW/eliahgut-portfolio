@@ -98,17 +98,3 @@ function switchLanguage(language) {
     document.querySelector("section#contact p:nth-child(3)").innerHTML = "<strong>" + translations[language].email + ":</strong> eliah.gut@swisscom.com";
     document.querySelector("section#contact p:nth-child(4)").innerHTML = "<strong>" + translations[language].linkedin + ":</strong> <a href='https://www.linkedin.com/in/eliah-gut-0a7541322/' target='_blank'>Eliah Gut LinkedIn</a>";
 }
-
-
-document.querySelectorAll('.hero-actions a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-
-        targetElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    });
-});
