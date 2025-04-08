@@ -43,7 +43,7 @@ body {
     text-align: center;
     position: relative;
     z-index: 1;
-    background-attachment: fixed;
+    background-attachment: scroll;
     height: 100vh;
     display: flex;
     justify-content: center;
