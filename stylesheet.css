@@ -145,6 +145,25 @@ h2 {
     overflow: hidden;
 }
 
+.card:nth-child(1) {
+    border: 5px solid #DD0031;
+}
+
+.card:nth-child(2) {
+    border: 5px solid #6DB33F; 
+}
+
+.card:nth-child(3) {
+    border: 5px solid #DD0031
+}
+
+.card:nth-child(4) {
+    border: 5px solid #00618A; 
+}
+
+
+
+
 .card::after {
     content: "";
     position: absolute;
