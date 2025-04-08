@@ -88,8 +88,8 @@ function switchLanguage(language) {
     document.querySelector(".hobby:nth-child(5) h3").textContent = translations[language].photos;
     document.querySelector(".hobby:nth-child(6) h3").textContent = translations[language].pc;
 
-    document.querySelector("section#contact p:nth-child(2)").innerHTML = "<strong>" + translations[language].phone + ":</strong> 079 xxx xx xx";
-    document.querySelector("section#contact p:nth-child(3)").innerHTML = "<strong>" + translations[language].email + ":</strong> eliah.gut@gmx.ch";
+    document.querySelector("section#contact p:nth-child(2)").innerHTML = "<strong>" + translations[language].phone + ":</strong> 079 570 28 14";
+    document.querySelector("section#contact p:nth-child(3)").innerHTML = "<strong>" + translations[language].email + ":</strong> eliah.gut@swisscom.com";
     document.querySelector("section#contact p:nth-child(4)").innerHTML = "<strong>" + translations[language].linkedin + ":</strong> <a href='https://www.linkedin.com/in/eliah-gut-0a7541322/' target='_blank'>Eliah Gut LinkedIn</a>";
 }
 
