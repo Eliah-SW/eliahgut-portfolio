@@ -323,4 +323,25 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
+
+    .hero {
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+    .hero-text {
+        font-size: 3em;
+    }
+
+    .hero-subtext {
+        font-size: 1.5em;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
 }
+
