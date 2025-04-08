@@ -37,18 +37,30 @@ body {
 }
 
 .hero {
-    background: url('samuel-ferrara-1527pjeb6jg-unsplash.jpg') no-repeat center center/cover;
+    position: relative;
     color: white;
     padding: 0;
     text-align: center;
-    position: relative;
-    z-index: 1;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden; /* Verhindert Überlaufen des Bildes */
 }
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%; /* Etwas größer als 100vh für den Parallax-Effekt */
+    background: url('samuel-ferrara-1527pjeb6jg-unsplash.jpg') no-repeat center center/cover;
+    z-index: -1; /* Hinter den Inhalt setzen */
+    transform: translateY(0); /* Startposition */
+}
+
+/* Der Rest des CSS bleibt wie zuvor, inklusive der @media-Anpassungen */
 
 .hero-text {
     font-size: 6em;
@@ -277,6 +289,10 @@ h2 {
         background: url('samuel-ferrara-1527pjeb6jg-unsplash.jpg') no-repeat center center/cover;
         /* Stelle sicher, dass das Bild auch mobil sichtbar ist */
         height: 100vh;
+    }
+
+    .hero-bg {
+        height: 120%; /* Leicht kleiner für Mobilgeräte */
     }
 
     .hero-text {
