@@ -279,12 +279,11 @@ h2 {
     }
 
     .hero-subtext {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .hero-actions {
         flex-direction: column;
-        gap: 15px;
         align-items: center;
     }
 
@@ -292,7 +291,27 @@ h2 {
     .btn-secondary {
         width: 80%;
         text-align: center;
-        padding: 12px 20px;
-        font-size: 1rem;
+    }
+
+    .project-cards,
+    .hobbies {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .hobby {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .project-img,
+    .hobby img {
+        height: auto;
+        max-height: 250px;
+    }
+
+    h2 {
+        font-size: 2em;
     }
 }
