@@ -274,73 +274,25 @@ h2 {
 }
 
 @media (max-width: 768px) {
-
-    .hero-actions {
-        flex-direction: column; 
-        gap: 20px;  
-    }
-
-    .btn-primary, .btn-secondary {
-        width: 100%;  
-        padding: 15px;  
-        font-size: 1.2rem; 
-    }
-
-    
-    #language-switcher {
-        top: 10px;
-        right: 10px;
-        z-index: 100;
-    }
-    
-    #language-switcher button {
-        font-size: 1rem;
-        padding: 12px 20px;
-    }
-
-    .hero-text {
-        font-size: 3.5em;
-    }
-
-    .hero-subtext {
-        font-size: 1.5em;
-    }
-
-    h2 {
-        font-size: 2.5em;
-    }
-
-    .project-cards {
-        flex-direction: column;
-    }
-
-    .card {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .hobbies {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero {
-        background-position: center;
-        background-size: cover;
-        background-attachment: scroll;
-    }
-
     .hero-text {
         font-size: 3em;
     }
 
     .hero-subtext {
-        font-size: 1.5em;
+        font-size: 1.2em;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
     }
 
     .btn-primary,
     .btn-secondary {
-        padding: 10px 20px;
-        font-size: 0.9rem;
+        width: 80%;
+        text-align: center;
+        padding: 12px 20px;
+        font-size: 1rem;
     }
 }
